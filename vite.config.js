@@ -30,6 +30,8 @@ export default defineConfig({
         ],
       },
       workbox: {
+        globDirectory: 'dist',
+        globPatterns: ['**/*.{js,css,html,svg,png}'], // Ensure it matches your files
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // Increase limit to 5 MiB
       },
     }),
