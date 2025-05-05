@@ -1,7 +1,7 @@
+// filepath: c:\Projects\my-breathing-app\postcss.config.js
 export default {
     plugins: {
-      tailwindcss: {},
+      '@tailwindcss/postcss7-compat': {},
       autoprefixer: {},
     },
   };
-  
